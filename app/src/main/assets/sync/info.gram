@@ -1,0 +1,6 @@
+#JSGF V1.0;
+
+grammar info;
+
+public<item> = cd | speaker | monitor | printer | card | jack | port | processor | satellite | modem | keyboard;
+

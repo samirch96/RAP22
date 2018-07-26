@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.sam.myapplication">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icon"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".WclmActivity"
+            android:label="VOICY"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Navigation_Activity"
+            android:label="RAP"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.sam.MainActivity" />
+        </activity>
+        <activity
+            android:name=".AboutUs"
+            android:label="@string/title_activity_about_us"
+            android:parentActivityName=".Navigation_Activity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.sam.Navigation_Activity" />
+        </activity>
+        <activity
+            android:name=".ScoreCard"
+            android:label="High Score"
+            android:parentActivityName=".Navigation_Activity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.exemple.sam.Navigation_Activity" />
+        </activity>
+        <activity
+            android:name=".Help"
+            android:label="Help" />
+        <activity
+            android:name=".Setting_activity"
+            android:label="@string/title_activity_setting_activity"
+            android:parentActivityName=".Navigation_Activity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.exemple.sam.Navigation_Activity" />
+        </activity>
+        <activity android:name=".MainActivity" />
+
+        <activity android:name=".RandomActivity" />
+        <activity android:name=".LevelsActivity" />
+        <activity android:name=".TestSliderActivity" />
+        <activity android:name=".TestCatgActivity" />
+        <activity android:name=".Catg1LsActivity" />
+        <activity android:name=".Catg1Ls1Activity" />
+        <activity android:name=".TTSActivity" />
+        <activity android:name=".TTSFRActivity" />
+        <activity android:name=".ShaireScoreActivity" />
+        <activity android:name=".Catg1Ls2Activity" />
+        <activity android:name=".Catg1Ls3Activity" />
+        <activity android:name=".Catg1Ls4Activity" />
+        <activity android:name=".Catg1Ls5Activity" />
+        <activity android:name=".CardActivity" />
+        <activity android:name=".TestCatgShowActivity" />
+        <activity android:name=".Catg2LsActivity" />
+        <activity android:name=".Catg2Ls1Activity" />
+        <activity android:name=".Catg2Ls2Activity" />
+        <activity android:name=".Catg2Ls3Activity" />
+        <activity android:name=".Catg2Ls4Activity" />
+        <activity android:name=".Catg3LsActivity" />
+        <activity android:name=".Catg4LsActivity" />
+        <activity android:name=".Catg5LsActivity" />
+        <activity android:name=".Catg6LsActivity" />
+        <activity android:name=".Catg7LsActivity" />
+        <activity android:name=".Catg8LsActivity" />
+        <activity android:name=".Catg9LsActivity" />
+        <activity android:name=".Catg3Ls1Activity" />
+        <activity android:name=".Catg3Ls2Activity" />
+        <activity android:name=".Catg3Ls3Activity" />
+        <activity android:name=".Catg4Ls1Activity" />
+        <activity android:name=".Catg4Ls2Activity" />
+        <activity android:name=".Catg4Ls3Activity" />
+        <activity android:name=".Catg5Ls1Activity" />
+        <activity android:name=".Catg5Ls2Activity" />
+        <activity android:name=".Catg5Ls3Activity" />
+        <activity android:name=".Catg6Ls1Activity" />
+        <activity android:name=".Catg7Ls1Activity" />
+        <activity android:name=".Catg7Ls2Activity" />
+        <activity android:name=".Catg8Ls1Activity" />
+        <activity android:name=".Catg8Ls2Activity" />
+        <activity android:name=".Catg8Ls3Activity" />
+        <activity android:name=".Catg8Ls4Activity" />
+        <activity android:name=".Game1Activity" />
+        <activity android:name=".OptActivity" />
+        <activity android:name=".OptLsActivity" />
+        <activity android:name=".MultiPlayerActivity" />
+        <activity android:name=".UserLoginActivity" />
+        <activity android:name=".UserRegisterActivity" />
+        <activity android:name=".UserUpdateActivity" />
+        <activity android:name=".PSSActivity" />
+        <activity android:name=".CatgCardViewActivity" />
+        <activity android:name=".ProfileActivity" />
+        <activity android:name=".Card2Activity" />
+        <activity android:name=".Card3Activity" />
+        <activity android:name=".Card4Activity" />
+        <activity android:name=".Card5Activity" />
+        <activity android:name=".Card6Activity" />
+        <activity android:name=".Card7Activity" />
+        <activity android:name=".Card8Activity"></activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,6 @@
+#JSGF V1.0;
+
+grammar schoolfr;
+
+public<item> = sac | livre | calculatrice | stylo | regle | ciseaux | ruban  ;
+

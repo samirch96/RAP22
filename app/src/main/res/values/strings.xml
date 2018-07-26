@@ -1,0 +1,60 @@
+<resources>
+    <string name="app_name">RAP</string>
+    <string name="kws_caption">To start demonstration say \"start\".</string>
+    <string name="menu_caption">Say \"digits\", \"forecast\" or \"phones\" to choose the grammar, language model or phonetic decoder example.</string>
+    <string name="digits_caption">To try recognition of digits: say something like \"one two three four five\".</string>
+    <string name="forecast_caption">To try recognition of a weather forecast like \"sunny spells on Wednesday\".</string>
+    <string name="phone_caption">To try phonetic recognition say anything.</string>
+    <string name="toast_message">"1.   Enter your name for the game.
+
+ 2.   Enter your valid mail address.
+        eg:   abc@xyz.com
+
+ 3.   Now set your password for
+        security purpose.
+
+              Enjoy the app! ☺</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="title_activity_navigation_activity">Voicy</string>
+    <string name="title_activity_navigation_">Navigation_Activity</string>
+    <string name="title_activity_about_us">About me</string>
+    <string name="note">Voicy is a smart app which is designed with simple and optimized user interface. QuizBook has all the categories of quiz question which are used in daily life.</string>
+    <string name="title_activity_settings">Settings</string>
+    <string name="title_activity_questions">Questions</string>
+    <string name="title_activity_main3">Main3Activity</string>
+    <string name="title_activity_score_card">ScoreCard</string>
+    <string name="title_activity_setting_activity">Settings</string>
+    <string name="email_content">Hey there! Take a look at the app developed by Fares and Chennib.\n\nHere is the link to the app:\n\n </string>
+    <string name="link"><u>https://github.com/ssss</u></string>
+    <string name="last_content">\n\nSteps: click on quizbook.apk and then click on download.</string>
+
+
+    <string name="title_activity_on_level">on_level</string>
+    <string name="mylistcall">category one</string>
+    <string name="solo">solo</string>
+    <string name="multiplayer">multiplayer</string>
+    <string name="next">next</string>
+    <string name="prev">prev</string>
+    <string name="start_recording">start recording</string>
+    <string name="the_score">the score</string>
+    <string name="log_in">log in</string>
+    <string name="first_name">first name</string>
+    <string name="first_name2">first name</string>
+    <string name="Last_Name">last name</string>
+    <string name="Password">password</string>
+    <string name="Confirm_Password">confirm password</string>
+    <string name="last_name">last name</string>
+    <string name="password">password</string>
+    <string name="confirm">confirm</string>
+    <string name="Email_Adress">email adress</string>
+    <string name="press_ok">press ok to continue</string>
+    <string name="email_adress2">email adress</string>
+    <string name="password2">password</string>
+    <string name="password3">password</string>
+    <string name="email_adress3">email adress</string>
+    <string name="register">if u r not a member tap here</string>
+    <string name="TextView">categories</string>
+</resources>

@@ -1,0 +1,6 @@
+#JSGF V1.0;
+
+grammar musicfr;
+
+public<item> = harpe | orateur | tuba | violon | saxophone | hautbois | synthétiseur | tambourin | trombone | tambour | gong | guitare ;
+

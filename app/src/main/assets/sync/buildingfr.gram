@@ -1,0 +1,6 @@
+#JSGF V1.0;
+
+grammar buildingfr;
+
+public<item> = scie | pelle | botte | pelle | boule | hummer ;
+

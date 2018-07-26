@@ -1,0 +1,6 @@
+#JSGF V1.0;
+
+grammar flag;
+
+public<item> = algeria | america | brazil | canada | china | dubai | france | iraq | italy | libya | malaysia | mali | mauritania | sudan | turkey | australia ;
+

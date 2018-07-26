@@ -1,0 +1,77 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgroung2"
+    android:padding="5dp"
+    android:layout_gravity="center"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="148dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+            android:src="@drawable/scorep" />
+
+        <TextView
+            android:layout_width="180dp"
+            android:layout_height="86dp"
+            android:layout_gravity="center"
+            android:text="your score is"
+            android:textAlignment="center"
+            android:textSize="35dp" />
+
+        <TextView
+            android:id="@+id/sc"
+            android:layout_width="180dp"
+            android:layout_height="67dp"
+            android:layout_gravity="center"
+            android:text="score"
+            android:textAlignment="center"
+            android:textColor="#fff"
+            android:textSize="35dp" />
+
+        <Button
+            android:id="@+id/aagd"
+            android:layout_width="220dp"
+            android:layout_height="59dp"
+            android:layout_gravity="center"
+            android:layout_margin="22dp"
+            android:background="@drawable/scorp" />
+
+        <Button
+            android:id="@+id/ff"
+            android:layout_width="220dp"
+            android:layout_height="52dp"
+            android:layout_gravity="center"
+            android:background="@drawable/scorep4" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:orientation="horizontal">
+
+
+
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/nn"
+        android:layout_width="wrap_content"
+        android:layout_height="71dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/scorep2"
+        android:text="next"
+        android:textColor="#fff"
+        android:textSize="44dp" />
+</LinearLayout>

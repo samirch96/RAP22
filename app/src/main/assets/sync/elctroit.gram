@@ -1,0 +1,7 @@
+#JSGF V1.0;
+
+grammar electroit;
+
+public<item> = frullatore | pulitore | lavacro | frigidita | amico | microonde | mixer | modem | alto | tele | ventilatore ;
+ ;
+

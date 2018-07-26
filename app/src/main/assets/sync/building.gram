@@ -1,0 +1,6 @@
+#JSGF V1.0;
+
+grammar building;
+
+public<item> = saw | hoe | boot | trowel | ladder | hummer ;
+

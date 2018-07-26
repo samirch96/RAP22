@@ -1,0 +1,6 @@
+#JSGF V1.0;
+
+grammar elctro;
+
+public<item> = blender | cleaner | dishwasher | fridge | microphone | microwaves | mixer | modem | speaker | tv | ventilator | washer ;
+

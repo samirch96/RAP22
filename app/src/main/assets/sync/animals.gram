@@ -1,0 +1,6 @@
+#JSGF V1.0;
+
+grammar animals;
+
+public<item> = bee | wolf | cat | dog | hyena | donkey | panda | squirrel | shark | silkworm | monkey | lizard | dinosaur | tiger | pig | lion | goat | mosquito | cockroach | rhinoceros | cow | hippopotamus | snake | crocodile | bird | owl | scorpion | fox | bunny ;
+

@@ -1,0 +1,6 @@
+#JSGF V1.0;
+
+grammar infofr;
+
+public<item> = cd | haut-parleur | moniteur | imprimante | carte | jack | port | processeur | satellite | modem | port | clavier  ;
+

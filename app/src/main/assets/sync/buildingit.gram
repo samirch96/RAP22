@@ -1,0 +1,6 @@
+#JSGF V1.0;
+
+grammar buildingit;
+
+public<item> = segua | palo | lungi | csegua | scala | marte ;
+

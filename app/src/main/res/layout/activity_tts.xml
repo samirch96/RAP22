@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/backgroung2"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center">
+        <EditText
+            android:id="@+id/editText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:ems="10"
+            android:textSize="25dp"
+            android:textColor="#005555"
+            android:textColorHint="#005555"
+            android:backgroundTint="#fff"
+            android:background="#fff"
+            android:inputType="textPersonName"
+            android:hint="write some think"/>
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/editText"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="46dp"
+            android:textColor="#005555"
+            android:background="@drawable/buttoncirc"
+            android:textSize="30dp"
+            android:text="Listen" />
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/editText"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="46dp"
+            android:textColor="#005555"
+            android:background="@drawable/buttoncirc"
+            android:textSize="30dp"
+            android:text="Back to game " />
+
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,5 @@
+#JSGF V1.0;
+
+grammar musicit;
+
+public<item> = carpa | altotissimo | tuba | violento | sassofono | oboe | sintesi | tamburello | trombone | cetera | tamburo | flauto | gong | chitarra;

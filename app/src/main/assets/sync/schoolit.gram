@@ -1,0 +1,6 @@
+#JSGF V1.0;
+
+grammar schoolit;
+
+public<item> = borea | libro | calcolatore | penna | regola | righello | forbici | nastro ;
+

@@ -1,0 +1,6 @@
+#JSGF V1.0;
+
+grammar infoit;
+
+public<item> = cd | alto | monitor | stampante | carta | jack | porto | processo | usate | modem | porto ;
+

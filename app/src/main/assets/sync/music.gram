@@ -1,0 +1,6 @@
+#JSGF V1.0;
+
+grammar music;
+
+public<item> = harp | speaker | tuba | violin | saxophone | oboe | synthesizer | tambourine | trombone | zither | drum | flute | gong | guitar ;
+

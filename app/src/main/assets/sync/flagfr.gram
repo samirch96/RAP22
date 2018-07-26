@@ -1,0 +1,6 @@
+#JSGF V1.0;
+
+grammar flagfr;
+
+public<item> = algérie | amérique | brésil | canada | chine | dubaï | france | irak | italie | libye | malaisie | mali | mauritanie | soudan | turquie | australie ;
+

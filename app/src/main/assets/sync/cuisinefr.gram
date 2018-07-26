@@ -1,0 +1,6 @@
+#JSGF V1.0;
+
+grammar cuisinefr;
+
+public<item> = mixage | cuisiniers | filtre | frigidaire | gants | rapper | couteau | chauffage | rapper | brochette | passoire ;
+

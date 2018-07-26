@@ -1,0 +1,6 @@
+#JSGF V1.0;
+
+grammar flagit;
+
+public<item> = algeria | america | brasile | Canada | cina | dubai | Francia | iraq | italia | libia | malesia | mali | mauritania | sudan | turchia | Australia ;
+

@@ -1,0 +1,6 @@
+#JSGF V1.0;
+
+grammar cuisine;
+
+public<item> = blender | cooker | filter | fridge | gloves | grater | knife | microwave | mixer | peeler | skewer  ;
+

@@ -1,0 +1,6 @@
+#JSGF V1.0;
+
+grammar animale;
+
+public<item> = gatto ;
+

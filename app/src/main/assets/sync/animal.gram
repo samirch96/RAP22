@@ -1,0 +1,6 @@
+#JSGF V1.0;
+
+grammar animal;
+
+public<item> = abeille | loup | chat | chien | hyun | âne | panda | écureuil | requin | ver | singe | lézard | dinosaure | tigre | porc | lion | chèvre | moustique | cafard | rhinocéros | vache | hippopotames | serpent | crocodile | oiseau | scorpion | renard | lapin ;
+         

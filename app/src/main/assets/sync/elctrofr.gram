@@ -1,0 +1,6 @@
+#JSGF V1.0;
+
+grammar elctrofr;
+
+public<item> = mixage | nettoyer | lave-vaisselle | frigidaire | micro | chauffage | mixage | modem | haut-parleur | tv | ventilateur | laveur ;
+

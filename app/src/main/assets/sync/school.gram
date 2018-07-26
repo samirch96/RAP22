@@ -1,0 +1,6 @@
+#JSGF V1.0;
+
+grammar school;
+
+public<item> = bag | book | calculator | pen | rule | ruler | scissors | tape  ;
+
